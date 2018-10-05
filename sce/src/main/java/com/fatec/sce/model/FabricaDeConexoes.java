@@ -7,10 +7,10 @@ import com.mysql.jdbc.Connection;
 import com.mysql.jdbc.exceptions.jdbc4.CommunicationsException;
 
 public class FabricaDeConexoes {
-	String url = "jdbc:mysql://localhost:3306/biblioteca";
+	String url = "jdbc:mysql://localhost:3307/biblioteca";
 	String driver = "com.mysql.jdbc.Driver";
 	String usuario = "root";
-	String senha = "";
+	String senha = "alunofatec";
 
 	public FabricaDeConexoes(ConfiguraDB configura) {
 		this.url = configura.getUrl();
